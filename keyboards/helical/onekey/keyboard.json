@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "helical/onekey",
+    "maintainer": "helical",
+    "manufacturer": "helical",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "direct": [["GP26"]]
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"GP26", "matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
